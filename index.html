@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidade</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js" defer></script> <!-- Defer carrega antes o HTML do que o JS-->
+</head>
+<body>
+    <div id="quadro">
+
+        <div id="inputs">
+            <h1 class="title">CONVERSOR DE UNIDADE</h1>
+
+            <label class="info" id="quantidade">Digite a quantidade:</label>
+            <input type="number" id="input" class="quantidade" placeholder="0"><br>
+
+            <label class="info" id="de">De:</label>
+            <select name="de" id="input" class="de">
+                <option value="m">Metro(s)</option>
+                <option value="km">Quilômetro(s)</option>
+                <option value="cm">Centímetro(s)</option>
+                <option value="mm">Milímetro(s)</option>
+            </select><br>
+
+            <label class="info" id="para">Para:</label>
+            <select name="para" id="input" class="para">
+                <option value="m">Metro(s)</option>
+                <option value="km">Quilômetro(s)</option>
+                <option value="cm">Centímetro(s)</option>
+                <option value="mm">Milímetro(s)</option>
+            </select>
+        </div>
+
+        <div id="button">
+           <button id="btnConverter">Converter</button> 
+        </div>
+
+        <div>
+            <label class="info" id="result">Resultado:</label>
+            <input type="number" id="input" class="result" readonly> <!--readonly é para o usuario não tem o opção de digitar-->
+        </div>
+        <div id="msg"></div>
+    </div>
+
+   
+</body>
+</html>

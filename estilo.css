@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box; /*Para os inputs não passarem da largura delimitada*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: #f4f4f4;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; /*Centralizei os itens dentro dele com display, align, justify e height*/
+}
+
+#quadro{
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 550px;
+    height: 750px;
+}
+
+.title{
+    font-size: 32px;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    background-color: #eee;
+    width: 510px;
+}
+
+.info{
+    margin-bottom: 0.6rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#btnConverter{
+    background-color: #4caf50;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer; /*Para aparecer o cursor do mause ao passar por cima   */
+    font-size: 22px;
+    padding: 10px 20px;
+    opacity: 0.7;
+    transition: 0.4s;
+    margin-bottom: 30px;
+    
+}
+
+#btnConverter:hover {
+    opacity: 1;  /*Para quando passar o mouse, escurecer denovo*/
+}
+
+#msg{
+    font-size: 22px;
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
