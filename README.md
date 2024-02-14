@@ -1,0 +1,4 @@
+Neste projeto, apresentamos um conversor de unidades que permite aos usuários converter valores de comprimento entre metros (m), centímetros (cm), quilômetros (km) e milímetros (mm). O objetivo deste conversor é fornecer uma ferramenta simples e prática para realizar conversões rápidas e precisas entre diferentes unidades de comprimento.
+Durante o desenvolvimento deste conversor de unidades, foram utilizadas técnicas de manipulação de números em JavaScript para realizar as conversões entre as diferentes unidades de comprimento. Além disso, foram aplicados estilos de CSS para melhorar a apresentação visual do conversor, tornando-o fácil de usar e esteticamente agradável.
+
+![imagem_2024-02-14_165503468](https://github.com/JulioDev01/buscador-cep/assets/136189977/b49ffa05-e4a0-4823-b08c-f5dbe7f3af84)
